@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: NanumSquareRound;
+}
+
+/* header */
+
+header {
+    position: relative;
+}
+
+.title-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    color: cornflowerblue;
+    margin-top: 20px;
+    position: relative;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.title:hover{
+    color: mediumblue;
+}
+
+.login-wrapper {
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    top: 8px;
+    right: 50px;
+}
+
+.login-btn {
+    margin-right: 10px;
+    cursor : pointer;
+}
+
+.login-btn:hover {
+    color: #000;
+}
+
+.sign-up-btn {
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    color: #000;
+}
+/* header */
+
+/* board */
+main{
+    /*background-color: aquamarine;*/
+}
+
+.board-wrapper{
+    margin: 100px 230px;
+    border: rgba(0, 0, 0, 0.34) 1px solid;
+    border-radius: 2px;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 0;
+    font-weight: bold;
+    background-color: #51a5e0;
+}
+
+.menu{
+    position: relative;
+    font-size: 20px;
+    /*padding: 0 20px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu1 {
+    width: 5%;
+}
+
+.menu2 {
+    width: 35%;
+}
+
+.menu3 {
+    width: 20%;
+}
+
+.menu4 {
+    width: 10%;
+}
+
+.menu5 {
+    width: 25%;
+}
+
+.post-wrapper{
+    background-color: rgba(81, 165, 224, 0.02);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    margin: 5px 0;
+}
+
+
+/* board */
